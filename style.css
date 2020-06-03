@@ -1,0 +1,66 @@
+
+header
+{
+    background-color: pink;
+    width: 100%;
+    position: fixed;
+    height: 4.7Rem;
+}
+
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    margin: 0 auto;
+    /* position: fixed; */
+    /* background-color: white; */
+    /* border: solid;  */
+    /* height: 4.375rem; */
+}
+.logo {
+    width: 4rem;
+    height:4rem;
+    margin-bottom: 1rem;
+
+}
+
+nav ul
+ {
+     display: flex;
+     width: 100%;
+     margin-top: 1rem;
+ }
+ nav ul li
+ {
+     list-style-type: none;
+     font-size: 1.5rem;
+     margin-left:7rem;
+     /* border: solid; */
+ }
+ .top-item
+ {
+     margin-top: 1.2%;
+     margin-bottom: 0.2%;
+ }
+ /* .second-top-item
+ {
+     width:60%;
+     border: solid;
+ } */
+ nav a
+{
+    text-decoration: none;
+    color: rgb(135, 145, 145);
+}
+nav a:hover
+{
+    color: rgb(204, 18, 18);
+}
+#first-link
+{
+    color: rgb(232, 230, 240);
+    font-weight: 500;
+}
+
+
